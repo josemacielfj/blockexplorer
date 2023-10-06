@@ -29,8 +29,11 @@ function App() {
 
     getBlockNumber();
   });
-
-  return <div className="App">Block Number: {blockNumber}</div>;
+  return (
+  <div className="App">Block Number: {blockNumber}
+  <p align="left">Last 10 blocks:</p>
+  </div>
+  );
 }
 
 export default App;
