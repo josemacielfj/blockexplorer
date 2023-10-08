@@ -1,0 +1,12 @@
+.listOfBlocks {
+  list-style-type: none;
+}
+
+.smallContent {
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+
+.listOfBlocks .link {
+  color: lightgreen;
+}
