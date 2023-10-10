@@ -33,7 +33,7 @@ export default function TransactionDetails({ selectedTransaction }) {
         <b>To</b>: {transactionDetails.to}
       </div>
       <div>
-        <b>Bloco</b>: {transactionDetails.blockNumber}
+        <b>Block</b>: {transactionDetails.blockNumber}
       </div>
       <div>
         <b>Contract created</b>: {transactionDetails.contractAddress}
